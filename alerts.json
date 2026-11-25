@@ -1,25 +1,26 @@
 {
-  "data_as_of": "2026-11-23",
-  "generated_at": "2026-11-24T06:00:08",
+  "data_as_of": "2026-11-24",
+  "generated_at": "2026-11-25T06:00:08",
   "scanner_version": "0.3.2",
   "stale_data": false,
   "markets_loaded": 23,
   "load_errors": 0,
-  "alerts_today": [
+  "alerts_today": [],
+  "watch_today": [
     {
       "name": "GBP/USD",
       "group": "fx",
-      "direction": "SHORT",
-      "type": "breakout",
-      "label": "Breakout",
+      "direction": "LONG",
+      "type": "failed",
+      "label": "Failed breakout (reversal)",
       "grade": "major",
-      "clearance_atr": 0.69,
+      "clearance_atr": 0.39,
       "level_tests_3y": 3,
       "stop_atr": 2.0,
-      "stop_pct": 1.16,
+      "stop_pct": 1.17,
       "cfd_notional_for_budget": [
-        86400.0,
-        172800.0
+        85800.0,
+        171500.0
       ],
       "risk_per_trade": [
         1000.0,
@@ -27,31 +28,29 @@
       ],
       "account_ccy": "USD",
       "history_2014": {
-        "alerts": 711,
-        "per_week": 1.12,
-        "follow_through": 0.396,
+        "alerts": 1562,
+        "per_week": 2.46,
+        "follow_through": 0.301,
         "random_follow_through": 0.334,
-        "coverage": 0.597,
-        "median_atr_travelled_at_first_alert": 7.2,
-        "median_atr_remaining_after_alert": 3.9
+        "coverage": 0.234,
+        "median_atr_travelled_at_first_alert": 0.8,
+        "median_atr_remaining_after_alert": 9.4
       }
-    }
-  ],
-  "watch_today": [
+    },
     {
-      "name": "CAD/USD",
+      "name": "CHF/USD",
       "group": "fx",
       "direction": "SHORT",
       "type": "retest",
       "label": "Retest of broken level",
-      "grade": "major+",
-      "clearance_atr": 1.23,
+      "grade": "major",
+      "clearance_atr": 0.61,
       "level_tests_3y": 3,
       "stop_atr": 2.0,
-      "stop_pct": 0.92,
+      "stop_pct": 1.39,
       "cfd_notional_for_budget": [
-        108600.0,
-        217200.0
+        72000.0,
+        144100.0
       ],
       "risk_per_trade": [
         1000.0,
@@ -59,8 +58,38 @@
       ],
       "account_ccy": "USD",
       "history_2014": null,
-      "breakout_date": "2026-11-18",
-      "days_since_breakout": 3
+      "breakout_date": "2026-11-12",
+      "days_since_breakout": 8
+    },
+    {
+      "name": "CAD/USD",
+      "group": "fx",
+      "direction": "LONG",
+      "type": "failed",
+      "label": "Failed breakout (reversal)",
+      "grade": "major+",
+      "clearance_atr": 0.91,
+      "level_tests_3y": 2,
+      "stop_atr": 2.0,
+      "stop_pct": 0.94,
+      "cfd_notional_for_budget": [
+        106200.0,
+        212500.0
+      ],
+      "risk_per_trade": [
+        1000.0,
+        2000.0
+      ],
+      "account_ccy": "USD",
+      "history_2014": {
+        "alerts": 1562,
+        "per_week": 2.46,
+        "follow_through": 0.301,
+        "random_follow_through": 0.334,
+        "coverage": 0.234,
+        "median_atr_travelled_at_first_alert": 0.8,
+        "median_atr_remaining_after_alert": 9.4
+      }
     }
   ]
 }

@@ -1,7 +1,9 @@
-# Breakout alerts — data as of 2026-11-23
+# Breakout alerts — data as of 2026-11-24
 _23 markets · scanner v0.3.2 · no prices published_
 
-- SHORT GBP/USD: Breakout [major] · 0.69 ATR through · level tested 3× in 3y · stop 1.16% · notional 86,400–172,800
+No alerts today.
 
 Watch:
-- SHORT CAD/USD: Retest of broken level [major+] · stop 0.92%
+- LONG GBP/USD: Failed breakout (reversal) [major] · stop 1.17%
+- SHORT CHF/USD: Retest of broken level [major] · stop 1.39%
+- LONG CAD/USD: Failed breakout (reversal) [major+] · stop 0.94%
