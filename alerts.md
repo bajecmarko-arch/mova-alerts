@@ -1,9 +1,7 @@
-# Breakout alerts — data as of 2026-11-24
+# Breakout alerts — data as of 2026-11-25
 _23 markets · scanner v0.3.2 · no prices published_
 
-No alerts today.
+- LONG Bund: Breakout [notable] · 0.44 ATR through · level tested 2× in 3y · stop 1.04% · notional 96,300–192,700
 
 Watch:
-- LONG GBP/USD: Failed breakout (reversal) [major] · stop 1.17%
-- SHORT CHF/USD: Retest of broken level [major] · stop 1.39%
-- LONG CAD/USD: Failed breakout (reversal) [major+] · stop 0.94%
+- LONG Gold: Failed breakout (reversal) [major] · stop 6.0%
