@@ -1,42 +1,11 @@
 {
-  "data_as_of": "2026-11-25",
-  "generated_at": "2026-11-26T06:00:08",
+  "data_as_of": "2026-11-26",
+  "generated_at": "2026-11-27T06:00:08",
   "scanner_version": "0.3.2",
   "stale_data": false,
   "markets_loaded": 23,
   "load_errors": 0,
-  "alerts_today": [
-    {
-      "name": "Bund",
-      "group": "rates",
-      "direction": "LONG",
-      "type": "breakout",
-      "label": "Breakout",
-      "grade": "notable",
-      "clearance_atr": 0.44,
-      "level_tests_3y": 2,
-      "stop_atr": 2.0,
-      "stop_pct": 1.04,
-      "cfd_notional_for_budget": [
-        96300.0,
-        192700.0
-      ],
-      "risk_per_trade": [
-        1000.0,
-        2000.0
-      ],
-      "account_ccy": "USD",
-      "history_2014": {
-        "alerts": 1660,
-        "per_week": 2.62,
-        "follow_through": 0.359,
-        "random_follow_through": 0.334,
-        "coverage": 0.977,
-        "median_atr_travelled_at_first_alert": 5.7,
-        "median_atr_remaining_after_alert": 4.6
-      }
-    }
-  ],
+  "alerts_today": [],
   "watch_today": [
     {
       "name": "Gold",
